@@ -1,5 +1,3 @@
-# DataCleaningCourseProject
- 
 This is the codebook for the data file results.txt.
 This is part of the project for the Coursera course "Getting and Cleaning Data".
 
@@ -20,4 +18,5 @@ activity - the acvitity the subject was engaged in (one of 6)
 The remaining 66 columns are selected readings from the accelerometer.  Each is averaged.
 
 Note: 
-The instructions were to extract "only the measurements on the mean and standard deviation for each measurement".  Accordingly I included only columns that ended with mean() or std().  There are also columns with mean embedded in the name, like "angle(tBodyGyroJerkMean,gravityMean)".  These are not included b
+The instructions were to extract "only the measurements on the mean and standard deviation for each measurement".  Accordingly I included only columns that ended with mean() or std().  There are also columns with mean embedded in the name, like "angle(tBodyGyroJerkMean,gravityMean)".  These are not included but can be with an easy adjustment to the desiredEntries array in run_Analysis.R.
+
